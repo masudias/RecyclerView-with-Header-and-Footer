@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/sub_headline_literal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Some long texts having a long size so that it takes multiple lines in the view to replicate the real-life app use case. This is important to have 3-4 lines this textview so that we can see if the views are being populated correctly. Hope this sentence is long enough to replicate the real-life scenario of this TextView content. Thank you."
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
